@@ -4,4 +4,7 @@ This is a variety of code that I wrote for my MS Thesis work using hyperspectral
 If you wish to repeat this work, this is the order with which the code is run: 
 1. Convert CHM to ASCII files, then .dtm files, then run the gridsurfacestats function in FUSION using: *convert_CHM_to_ASCII_and_Create_Batch_Files_pub.R*
 2. Make stacks of hyperspectral, DTM, and CHM metrics and export them as .Rdata files using: *make_GLiHT_indices_stacks_pub.R* and *process_GLiHT_pub.R*
-
+3. Extract the data at each circular plot (USDA Forest Service Forest Inventory and Analysis, or FIA, plot in this case) using: *extract_plot_data.R*
+4. Make models to assess which algorithm and data input works best given your data using: *create_and_test_models_hyperspec_and_LiDAR_pub.R* and *setup_predictor_and_response_hyperspec_and_LiDAR_pub.R*
+5. When you decide which moedls work best, train your models using the entire dataset and save them all to one .Rdata file.
+6. Then, make predictions over your 13m data using: *make_predictions_pub.R*
