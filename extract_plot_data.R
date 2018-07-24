@@ -27,7 +27,7 @@ file.list <- list.files(rdata_foldername, pattern = ".RData", full.names = TRUE)
 # Create a matrix where we can store the aggregated signatures for each plot
 ######################################################
 ## make container for storing aggregated signatures ##
-subp.hp.dat <- matrix(nrow = length(f.dat), ncol = 9)
+subp.hp.dat <- matrix(nrow = length(f.dat), ncol = 114) ## Change the number of cols based on your data (# bands)
 
 # Start a progress bar (named pb) so that we can track how far into our for loop we are
 pb <- winProgressBar(title = "Progress Bar - Overall Percent Completed", min = 0,
