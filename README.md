@@ -1,6 +1,6 @@
 
 
-# Alaska_Work
+# Overview
 This is a variety of code that I wrote for my MS Thesis work using hyperspectral and LiDAR data to predict Forest Type in the Tanana Valley of Alaska. I also wrote a series of scripts for using this data to predict forest type over GLiHT Swaths and compare the values to that of NLCD, LandFire, and Photo Interpreted stand maps in the region. 
 
 ## Funding
@@ -12,10 +12,8 @@ This work was funded by:
 
 ## Contact Caileigh Shoot
 A current version of my resume and CV can be found at: http://sites.uw.edu/shootc
-
+Feel free to connect with me on LinkedIn: https://www.linkedin.com/in/caileighshoot
 All other questions can be answered by emailing me at: shootc@uw.edu 
-
-Feel free to connect with me on linkedIn: https://www.linkedin.com/in/caileighshoot
 
 ## Classifying FIA Forest Type from a Fusion of Hyperspectral and LiDAR Data
 If you wish to repeat this work, this is the order with which the code is run: 
